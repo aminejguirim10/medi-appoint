@@ -27,7 +27,7 @@ const HomeHero = () => {
             Book
           </Link>
           <Link
-            href={"/"}
+            href={"/#services"}
             className={buttonVariants({ variant: "heroOutline" })}
           >
             Learn More
