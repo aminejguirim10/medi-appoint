@@ -1,5 +1,5 @@
 import HomeBookAppointment from "@/components/app/home-book-appointment";
-import HomeContacts from "@/components/app/home-contact";
+import HomeContacts from "@/components/app/home-contacts";
 import HomeDiscoverServices from "@/components/app/home-discover-services";
 import HomeFaqs from "@/components/app/home-faqs";
 import HomeFeatures from "@/components/app/home-features";
