@@ -53,7 +53,7 @@ const HomeServiceItem = ({
           width={600}
           height={400}
           quality={100}
-          className={isVertical ? "w-full h-[300px]" : "h-full"}
+          className={isVertical ? "w-full h-[300px] md:h-[450px]" : "h-full"}
         />
       </div>
     </div>

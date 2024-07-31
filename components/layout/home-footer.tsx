@@ -48,7 +48,7 @@ const navigations = [
 
 export default function HomeFooter() {
   return (
-    <section className="flex flex-col gap-6 md:pb-2">
+    <section className="flex flex-col gap-6 md:pb-2 -mt-4">
       <div className="mb-8 max-md:mb-4">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row gap-4 justify-between ">
           <div className="flex flex-col gap-3  ">

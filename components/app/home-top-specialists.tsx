@@ -13,7 +13,7 @@ const HomeTopSpecialists = () => {
           </p>
         </div>
       </div>
-      <div className="mt-8">
+      <div className="mt-4 md:mt-8">
         <HomeTopSpecialistsDoctors />
       </div>
     </section>

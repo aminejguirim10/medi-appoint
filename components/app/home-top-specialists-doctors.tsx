@@ -77,7 +77,7 @@ export function HomeTopSpecialistsDoctors() {
                   height={500}
                   src={active.src}
                   alt={active.title}
-                  className="w-full h-80 lg:h-80 sm:rounded-tr-lg sm:rounded-tl-lg object-cover object-top"
+                  className="w-full h-80 lg:h-80 sm:rounded-tr-lg sm:rounded-tl-lg "
                 />
               </motion.div>
 
@@ -208,7 +208,7 @@ const cards = [
   {
     title: "Cardiologist",
     description: "Dr. John Smith",
-    src: "/assets/img2.jpg",
+    src: "/assets/img6.jpg",
     ctaText: "Check",
     ctaLink: "/",
     content: () => {
@@ -229,7 +229,7 @@ const cards = [
   {
     title: "Neurologist",
     description: "Dr. Emily Johnson",
-    src: "/assets/img2.jpg",
+    src: "/assets/img7.jpg",
     ctaText: "Check",
     ctaLink: "/",
     content: () => {
@@ -251,7 +251,7 @@ const cards = [
   {
     title: "Orthopedic Surgeon",
     description: "Dr. Michael Brown",
-    src: "/assets/img2.jpg",
+    src: "/assets/img8.jpg",
     ctaText: "Check",
     ctaLink: "/",
     content: () => {
@@ -272,7 +272,7 @@ const cards = [
   {
     title: "Dermatologist",
     description: "Dr. Sarah Lee",
-    src: "/assets/img2.jpg",
+    src: "/assets/img9.jpg",
     ctaText: "Check",
     ctaLink: "/",
     content: () => {
@@ -293,7 +293,7 @@ const cards = [
   {
     title: "Pediatrician",
     description: "Dr. David Williams",
-    src: "/assets/img2.jpg",
+    src: "/assets/img10.jpg",
     ctaText: "Check",
     ctaLink: "/",
     content: () => {

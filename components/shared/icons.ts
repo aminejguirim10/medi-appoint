@@ -7,6 +7,9 @@ import {
   Palette,
   LayoutDashboard,
   ServerCog,
+  Mail,
+  Phone,
+  MapPin,
 } from "lucide-react";
 
 import { MdOutlineFacebook } from "react-icons/md";
@@ -25,4 +28,7 @@ export const Icons = {
   palette: Palette,
   layoutDashboard: LayoutDashboard,
   serverCog: ServerCog,
+  mail: Mail,
+  phone: Phone,
+  mapPin: MapPin,
 };

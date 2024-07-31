@@ -16,4 +16,11 @@ declare interface HomeHealthcareSotionsItemProps {
   controls: any;
 }
 
-
+declare interface HomeContactsItemProps {
+  title: string;
+  subTitle: string;
+  info: string;
+  icon: any;
+  index: number;
+  controls: any;
+}

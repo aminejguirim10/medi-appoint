@@ -113,7 +113,7 @@ function Feature({ feature }: FeatureProps) {
 
 export function HomeFeaturesItems() {
   return (
-    <div className="my-8 md:my-12 xl:max-w-none">
+    <div className="mt-8 md:mt-12 xl:max-w-none">
       <div className="not-prose mt-4 grid grid-cols-1 gap-8 sm:grid-cols-2 xl:grid-cols-4">
         {HomeFeatures.map((feature) => (
           <Feature key={feature.href} feature={feature as any} />

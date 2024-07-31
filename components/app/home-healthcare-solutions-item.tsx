@@ -1,4 +1,3 @@
-"use client";
 import Link from "next/link";
 import { buttonVariants } from "@/components/ui/button";
 import { Icons } from "@/components/shared/icons";
@@ -25,7 +24,7 @@ const HomeHealthcareSolutionsItem = ({
       variants={animationVariants}
       transition={{ duration: 0.5, delay: index * 0.3 }}
     >
-      <div className="bg-[#967F4A]/35 px-2 py-2 rounded-full w-fit">
+      <div className="bg-[#967F4A]/35 p-2 rounded-full w-fit">
         <Icon className="size-6 sm:size-7 text-[#967F4A]" />
       </div>
       <h2 className="font-semibold md:font-bold text-lg xl:text-lg lg:text-center text-[#47526B]">
