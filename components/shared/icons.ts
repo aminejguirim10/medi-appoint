@@ -10,10 +10,10 @@ import {
   Mail,
   Phone,
   MapPin,
-} from "lucide-react";
+} from "lucide-react"
 
-import { MdOutlineFacebook } from "react-icons/md";
-import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
+import { MdOutlineFacebook } from "react-icons/md"
+import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from "react-icons/io"
 
 export const Icons = {
   facebook: MdOutlineFacebook,
@@ -31,4 +31,4 @@ export const Icons = {
   mail: Mail,
   phone: Phone,
   mapPin: MapPin,
-};
+}

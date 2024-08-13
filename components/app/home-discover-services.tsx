@@ -1,11 +1,11 @@
-import Image from "next/image";
+import Image from "next/image"
 
 const HomeDiscoverServices = () => {
   return (
-    <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24">
-      <div className="flex flex-col md:flex-row gap-6 md:gap-4">
-        <div className="md:w-1/2 flex flex-col gap-4  justify-center ">
-          <h1 className="text-4xl max-sm:text-2xl max-md:text-3xl font-bold text-[#2563EB]">
+    <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
+      <div className="flex flex-col gap-6 md:flex-row md:gap-4">
+        <div className="flex flex-col justify-center gap-4 md:w-1/2">
+          <h1 className="text-4xl font-bold text-[#2563EB] max-md:text-3xl max-sm:text-2xl">
             Discover Our Comprehensive Range of Medical Services
           </h1>
           <p className="text-sm">
@@ -14,16 +14,16 @@ const HomeDiscoverServices = () => {
             treatments, our team of experienced doctors is here to provide you
             with the highest quality care.
           </p>
-          <div className="flex gap-4 my-2 ">
+          <div className="my-2 flex gap-4">
             <div className="flex flex-col gap-3">
-              <h2 className="font-semibold  ">Preventive Care</h2>
+              <h2 className="font-semibold">Preventive Care</h2>
               <p className="text-sm text-muted-foreground">
                 Stay healthy and prevent illnesses with our comprehensive range
                 of preventive care services.
               </p>
             </div>
             <div className="flex flex-col gap-3">
-              <h2 className="font-semibold ">Treatments</h2>
+              <h2 className="font-semibold">Treatments</h2>
               <p className="text-sm text-muted-foreground">
                 Receive personalized and effective treatments from our team of
                 specialized doctors.
@@ -31,19 +31,19 @@ const HomeDiscoverServices = () => {
             </div>
           </div>
         </div>
-        <div className="md:w-1/2 h-[220px] md:h-[350px]  ">
+        <div className="h-[220px] md:h-[350px] md:w-1/2">
           <Image
             src={"/assets/img2.jpg"}
             alt="image"
             height={300}
             width={500}
             quality={100}
-            className="w-full h-[220px] md:h-[350px] rounded-2xl"
+            className="h-[220px] w-full rounded-2xl md:h-[350px]"
           />
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default HomeDiscoverServices;
+export default HomeDiscoverServices

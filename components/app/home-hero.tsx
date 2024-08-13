@@ -1,6 +1,6 @@
-import Image from "next/image";
-import Link from "next/link";
-import { buttonVariants } from "@/components/ui/button";
+import Image from "next/image"
+import Link from "next/link"
+import { buttonVariants } from "@/components/ui/button"
 
 const HomeHero = () => {
   return (
@@ -12,14 +12,14 @@ const HomeHero = () => {
           height={632}
           alt="hero image"
           quality={100}
-          className="w-full h-[calc(100vh-110px)] md:h-[calc(100vh-104px)] "
+          className="h-[calc(100vh-110px)] w-full md:h-[calc(100vh-104px)]"
         />
       </div>
-      <div className="absolute flex flex-col gap-4 top-1/2 left-6 xl:left-40 2xl:left-60">
-        <h1 className="text-4xl max-sm:text-2xl max-md:text-3xl font-bold max-lg:max-w-md  text-white">
+      <div className="absolute left-6 top-1/2 flex flex-col gap-4 xl:left-40 2xl:left-60">
+        <h1 className="text-4xl font-bold text-white max-lg:max-w-md max-md:text-3xl max-sm:text-2xl">
           Find the right doctor for you
         </h1>
-        <p className="text-white font-medium">
+        <p className="font-medium text-white">
           Book your next appointment with ease and convenience
         </p>
         <div className="flex gap-2">
@@ -35,7 +35,7 @@ const HomeHero = () => {
         </div>
       </div>{" "}
     </div>
-  );
-};
+  )
+}
 
-export default HomeHero;
+export default HomeHero

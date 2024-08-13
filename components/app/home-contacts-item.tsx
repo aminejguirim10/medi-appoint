@@ -1,9 +1,9 @@
-import { motion } from "framer-motion";
+import { motion } from "framer-motion"
 
 const animationVariants = {
   hidden: { opacity: 0, y: 20 },
   visible: { opacity: 1, y: 0 },
-};
+}
 const HomeContactsItem = ({
   title,
   subTitle,
@@ -14,26 +14,26 @@ const HomeContactsItem = ({
 }: HomeContactsItemProps) => {
   return (
     <motion.div
-      className="flex flex-col md:items-center gap-2 md:gap-5  "
+      className="flex flex-col gap-2 md:items-center md:gap-5"
       initial="hidden"
       animate={controls}
       variants={animationVariants}
       transition={{ duration: 0.5, delay: index * 0.3 }}
     >
-      <div className="p-2 hover:bg-[#EB262D]/35 hover:rounded-full transition-all w-fit">
-        <Icon className="size-6 sm:size-7 text-[#EB262D]" />
+      <div className="w-fit p-2 transition-all hover:rounded-full hover:bg-[#EB262D]/35">
+        <Icon className="size-6 text-[#EB262D] sm:size-7" />
       </div>
-      <h2 className="font-semibold md:font-bold text-lg xl:text-lg lg:text-center text-[#47526B]">
+      <h2 className="text-lg font-semibold text-[#47526B] md:font-bold lg:text-center xl:text-lg">
         {title}
       </h2>
-      <p className="text-gray-600 max-md:text-sm lg:text-center text-sm xl:text-base">
+      <p className="text-sm text-gray-600 max-md:text-sm lg:text-center xl:text-base">
         {subTitle}
       </p>
-      <p className="underline text-[#6B6A47]  hover:cursor-pointer hover:text-[#6B6A47]/80 -mt-1 md:-mt-2">
+      <p className="-mt-1 text-[#6B6A47] underline hover:cursor-pointer hover:text-[#6B6A47]/80 md:-mt-2">
         {info}
       </p>
     </motion.div>
-  );
-};
+  )
+}
 
-export default HomeContactsItem;
+export default HomeContactsItem

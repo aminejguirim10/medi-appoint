@@ -1,13 +1,13 @@
-import { testimonials } from "@/constants";
+import { testimonials } from "@/constants"
 
 const HomeTestimonials = () => {
   return (
-    <section className="bg-white mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
-      <div className="mx-auto max-w-xl text-center ">
-        <h2 className="text-4xl max-sm:text-2xl max-md:text-3xl font-bold md:max-w-3xl text-[#EB9626]  leading-8 tracking-tight max-md:text-start  ">
+    <section className="mx-auto max-w-7xl bg-white px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-xl text-center">
+        <h2 className="text-4xl font-bold leading-8 tracking-tight text-[#EB9626] max-md:text-start max-md:text-3xl max-sm:text-2xl md:max-w-3xl">
           Testimonials
         </h2>
-        <p className="mt-2 text-xl font-bold tracking-tight text-gray-800 sm:text-2xl max-md:text-start">
+        <p className="mt-2 text-xl font-bold tracking-tight text-gray-800 max-md:text-start sm:text-2xl">
           What Our Patients Are Saying
         </p>
       </div>
@@ -41,7 +41,7 @@ const HomeTestimonials = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default HomeTestimonials;
+export default HomeTestimonials

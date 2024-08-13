@@ -1,4 +1,4 @@
-import { Icons } from "@/components/shared/icons";
+import { Icons } from "@/components/shared/icons"
 export const HomeServicesItems = [
   {
     badge: "Efficient",
@@ -24,7 +24,7 @@ export const HomeServicesItems = [
     title: "Easy Booking Process",
     isVertical: true,
   },
-];
+]
 
 export const HomeHealthcareSotionsItems = [
   {
@@ -48,7 +48,7 @@ export const HomeHealthcareSotionsItems = [
     buttonText: "Contact",
     icon: Icons.shieldHalf,
   },
-];
+]
 
 export const HomeFeatures = [
   {
@@ -104,7 +104,7 @@ export const HomeFeatures = [
       squares: [[0, 1]],
     },
   },
-];
+]
 
 export const testimonials = [
   {
@@ -161,7 +161,7 @@ export const testimonials = [
         "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     },
   },
-];
+]
 
 export const HomeContactsItems = [
   {
@@ -182,7 +182,7 @@ export const HomeContactsItems = [
     info: "Monastir, Tunisia 5035",
     icon: Icons.mapPin,
   },
-];
+]
 
 export const faqs = [
   {
@@ -220,4 +220,4 @@ export const faqs = [
     answer:
       "You can pay for your appointment through our secure online payment system. We accept various payment methods including credit cards and insurance.",
   },
-];
+]
